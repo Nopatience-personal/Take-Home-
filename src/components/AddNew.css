@@ -1,0 +1,62 @@
+form {
+  align-content: center;
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+
+label{
+  font-size: 18px;
+  width: 40%;
+  padding:16px 20px;
+  margin-left: 250px;
+
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 16px 20px;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid blue;
+}
+
+input[type=date] {
+  font-size: 18px;
+  width: 41%;
+  padding: 16px 20px;
+  margin: 10px;
+  border-style: groove;
+  border-color: blue;
+}
+
+select {
+  width: 44%;
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+button {
+  font-size: 18px;
+  align-content: center;
+  width: 30%;
+  padding: 16px 20px;
+  margin-top: 10px;
+  margin-left:  400px;
+  border-color: blue;
+  opacity: 50%;
+  border-style: groove;
+  border-width: thick;
+  border-radius: 50px;
+  background-color: #ffdebb;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: white;
+}
