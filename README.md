@@ -1,1 +1,3 @@
-# Take-Home-
+# Take-Home-App
+npm install
+npm run dev
